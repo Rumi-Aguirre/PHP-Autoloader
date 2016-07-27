@@ -5,7 +5,7 @@ namespace MainClass;
 class MainClass {
 
     public function test(){
-        $AutoloadedClass = new AutoloadedClass();
+        $AutoloadedClass = new SubClasses\AutoloadedClass();
         echo $AutoloadedClass->var;
     }
 }
